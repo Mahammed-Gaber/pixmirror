@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #141414;
+  --color-surface: #1a1a1a;
+  --color-raised: #262626;
+  --color-hover: #222222;
+  --color-line: #2e2e2e;
+  --color-line-strong: #3f3f3f;
+  --color-fg: #f0f0f0;
+  --color-muted: #a3a3a3;
+  --color-faint: #737373;
+  --color-ok: #4cc38a;
+  --color-warn: #d9a441;
+  --color-rec: #e5484d;
+
+  --font-sans: "Noto Kufi Arabic", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Cascadia Mono", "Cascadia Code", Consolas, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    overflow: hidden;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+    cursor: default;
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+    color: inherit;
+  }
+
+  button:not(:disabled) {
+    cursor: pointer;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-fg);
+    outline-offset: 2px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-line-strong);
+    border-radius: 4px;
+  }
+
+  /* Narrow strip next to scrcpy — keep the scrollbar from eating the icons. */
+  .toolbar-scroll {
+    scrollbar-width: thin;
+  }
+
+  .toolbar-scroll::-webkit-scrollbar {
+    width: 3px;
+  }
+}

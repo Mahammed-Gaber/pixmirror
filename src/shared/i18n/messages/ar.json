@@ -1,0 +1,147 @@
+{
+  "common": {
+    "close": "إغلاق",
+    "refresh": "تحديث",
+    "back": "رجوع",
+    "open": "فتح",
+    "change": "تغيير",
+    "settings": "الإعدادات",
+    "done": "تم",
+    "failed": "فشل",
+    "usb": "USB"
+  },
+  "locale": {
+    "label": "اللغة",
+    "system": "حسب النظام",
+    "ar": "العربية",
+    "en": "English",
+    "hint": "الافتراضي يتبع لغة ويندوز. يمكن تغييرها في أي وقت."
+  },
+  "connect": {
+    "start": "بدء المرآة",
+    "starting": "جاري البدء…",
+    "screenshot": "لقطة شاشة",
+    "screenOff": "إطفاء شاشة الموبايل أثناء المرآة",
+    "screenOffHint": "التحكم يظل يعمل؛ الشاشة فقط تُطفأ."
+  },
+  "status": {
+    "waitingDevice": "بانتظار جهاز",
+    "phonesReady": "{count} جهاز جاهز",
+    "battery": "البطارية {level}%",
+    "batteryCharging": "البطارية {level}% · شحن"
+  },
+  "devices": {
+    "title": "الأجهزة",
+    "refreshList": "تحديث القائمة",
+    "none": "لا يوجد جهاز USB",
+    "androidDevice": "جهاز أندرويد",
+    "acceptAlways": " — وافق على الموبايل (يفضّل دائماً)",
+    "stateUnauthorized": "بانتظار التفويض",
+    "stateOffline": "غير متاح (offline)",
+    "stateBootloader": "وضع Bootloader",
+    "stateRecovery": "وضع Recovery",
+    "stateSideload": "وضع Sideload"
+  },
+  "stats": {
+    "cpu": "المعالج",
+    "ram": "الذاكرة",
+    "battery": "البطارية",
+    "charging": "شحن",
+    "full": "ممتلئة",
+    "discharging": "تفرغ",
+    "loading": "جاري قراءة حالة الموبايل…",
+    "topProcess": "الأعلى: {name}"
+  },
+  "guide": {
+    "title": "وصّل موبايلك",
+    "subtitle": "إعداد USB مرة واحدة. الجهاز يظهر هنا تلقائياً.",
+    "step1Title": "فعّل خيارات المطوّر",
+    "step1Body": "الإعدادات ← حول الهاتف ← اضغط رقم البناء سبع مرات.",
+    "step2Title": "فعّل تصحيح USB",
+    "step2Body": "الإعدادات ← خيارات المطوّر ← تصحيح USB.",
+    "step3Title": "وصّل الكابل",
+    "step3Body": "استخدم كابل بيانات، مش شحن فقط.",
+    "step4Title": "اسمح لهذا الكمبيوتر",
+    "step4Body": "اقبل «السماح بتصحيح USB» على الموبايل، وفعّل السماح دائماً من هذا الكمبيوتر.",
+    "afterTitle": "بعد التوصيل",
+    "after1": "بدء المرآة: شاشة الموبايل تفتح في نافذة منفصلة مع شريط أدوات على اللاب.",
+    "after2": "اختَر وضع أداء يناسب جهازك والكابل.",
+    "after3": "اللقطات والتسجيل تُحفظ تحت PixMirror — يمكن تغيير المجلد من الإعدادات.",
+    "after4": "يمكن إطفاء شاشة الموبايل أثناء المرآة للخصوصية على المكتب.",
+    "searching": "جاري البحث عن أجهزة…",
+    "waitingAuth": "بانتظار موافقتك على الموبايل… اختَر السماح دائماً من هذا الكمبيوتر.",
+    "offlineHint": "الجهاز offline — افصل الكابل وأعد توصيله."
+  },
+  "presets": {
+    "label": "الأداء",
+    "high": "جودة عالية",
+    "highDesc": "أوضح صورة. مناسب للعمل والتفاصيل.",
+    "gaming": "ألعاب",
+    "gamingDesc": "استجابة أسرع بدقة أقل.",
+    "eco": "توفير",
+    "ecoDesc": "أخف على الأجهزة الضعيفة."
+  },
+  "mirror": {
+    "endedUnexpectedly": "توقفت المرآة. ربما أُغلقت نافذة العرض، أو انقطع USB، أو أُطفئت شاشة الموبايل."
+  },
+  "capture": {
+    "screenshot": "لقطة شاشة",
+    "recording": "تسجيل",
+    "saved": "تم حفظ {kind}: {name}",
+    "reveal": "إظهار في المجلد"
+  },
+  "toolbar": {
+    "aria": "أدوات المرآة",
+    "back": "رجوع",
+    "home": "الرئيسية",
+    "recents": "الأخيرة",
+    "volumeUp": "رفع الصوت",
+    "volumeDown": "خفض الصوت",
+    "power": "الطاقة",
+    "screenshot": "لقطة شاشة",
+    "record": "تسجيل",
+    "stopRecord": "إيقاف التسجيل",
+    "openFolder": "فتح مجلد الحفظ",
+    "minimize": "تصغير المرآة والشريط",
+    "stop": "إيقاف المرآة"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "saveDir": "مجلد الحفظ",
+    "saveDirHint": "اللقطات في screenshots/ والتسجيلات في recordings/.",
+    "tools": "الأدوات",
+    "adbUnavailable": "adb غير متاح",
+    "pickSaveDir": "اختيار مجلد الحفظ",
+    "saveDirChanged": "تم تحديث مجلد الحفظ"
+  },
+  "errors": {
+    "unknown": "حدث خطأ غير معروف.",
+    "unauthorized": "الجهاز متصل لكنه غير مصرّح. اقبل «السماح بتصحيح USB» على الموبايل (فعّل السماح دائماً من هذا الكمبيوتر).",
+    "no_device": "لا يوجد جهاز متصل. وصّل الموبايل وفعّل تصحيح USB.",
+    "offline": "الجهاز offline. افصل وأعد التوصيل، أو أعد تفعيل تصحيح USB.",
+    "adb_daemon": "تعذر تشغيل خادم adb. تأكد أنه لا يعمل adb آخر ثم أعد المحاولة.",
+    "multiple_devices": "أكثر من جهاز متصل. اختَر جهازاً محدداً أولاً.",
+    "raw": "خطأ: {detail}",
+    "select_device": "اختَر جهازاً أولاً.",
+    "adb_start_failed": "فشل تشغيل adb: {detail}",
+    "scrcpy_start_failed": "فشل تشغيل scrcpy: {detail}",
+    "mirror_already": "المرآة تعمل بالفعل. أوقفها أولاً.",
+    "recording_already": "التسجيل يعمل بالفعل.",
+    "recording_need_mirror": "ابدأ المرآة أولاً ثم سجّل.",
+    "recording_none": "لا يوجد تسجيل نشط.",
+    "mirror_none": "لا توجد جلسة مرآة.",
+    "unsupported_key": "مفتاح غير مدعوم: {key}",
+    "binaries_missing": "مجلد الـ binaries غير موجود. ضع الملفات تحت src-tauri/binaries.",
+    "binary_not_found": "تعذر العثور على {name}.",
+    "resource_dir": "تعذر تحديد مجلد الموارد: {detail}",
+    "screenshot_invalid": "تعذر التقاط صورة صالحة من الجهاز",
+    "screenshot_save": "تعذر حفظ الصورة: {detail}",
+    "mkdir_failed": "تعذر إنشاء المجلد: {detail}",
+    "open_folder_failed": "تعذر فتح المجلد: {detail}",
+    "path_outside_save": "المسار خارج مجلد الحفظ.",
+    "window_missing": "النافذة الرئيسية غير موجودة",
+    "task_failed": "تعذر تنفيذ العملية: {detail}",
+    "settings_dir": "تعذر تحديد مجلد الإعدادات: {detail}",
+    "documents_dir": "تعذر تحديد مجلد المستندات: {detail}"
+  }
+}

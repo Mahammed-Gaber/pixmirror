@@ -1,0 +1,147 @@
+{
+  "common": {
+    "close": "Close",
+    "refresh": "Refresh",
+    "back": "Back",
+    "open": "Open",
+    "change": "Change",
+    "settings": "Settings",
+    "done": "Done",
+    "failed": "Failed",
+    "usb": "USB"
+  },
+  "locale": {
+    "label": "Language",
+    "system": "System",
+    "ar": "العربية",
+    "en": "English",
+    "hint": "Default follows Windows language. You can change it anytime."
+  },
+  "connect": {
+    "start": "Start mirror",
+    "starting": "Starting…",
+    "screenshot": "Screenshot",
+    "screenOff": "Turn phone screen off while mirroring",
+    "screenOffHint": "Control still works; only the phone display is off."
+  },
+  "status": {
+    "waitingDevice": "Waiting for a device",
+    "phonesReady": "{count} device ready",
+    "battery": "Battery {level}%",
+    "batteryCharging": "Battery {level}% · charging"
+  },
+  "devices": {
+    "title": "Devices",
+    "refreshList": "Refresh list",
+    "none": "No USB devices",
+    "androidDevice": "Android device",
+    "acceptAlways": " — accept on the phone (prefer Always)",
+    "stateUnauthorized": "Waiting for authorization",
+    "stateOffline": "Unavailable (offline)",
+    "stateBootloader": "Bootloader mode",
+    "stateRecovery": "Recovery mode",
+    "stateSideload": "Sideload mode"
+  },
+  "stats": {
+    "cpu": "CPU",
+    "ram": "Memory",
+    "battery": "Battery",
+    "charging": "charging",
+    "full": "full",
+    "discharging": "discharging",
+    "loading": "Reading phone status…",
+    "topProcess": "Top: {name}"
+  },
+  "guide": {
+    "title": "Connect your phone",
+    "subtitle": "USB setup once. The device appears here automatically.",
+    "step1Title": "Enable Developer options",
+    "step1Body": "Settings → About phone → tap Build number seven times.",
+    "step2Title": "Enable USB debugging",
+    "step2Body": "Settings → Developer options → USB debugging.",
+    "step3Title": "Plug in the cable",
+    "step3Body": "Use a data cable, not charge-only.",
+    "step4Title": "Allow this computer",
+    "step4Body": "Accept “Allow USB debugging” on the phone, and enable Always allow from this computer.",
+    "afterTitle": "After connecting",
+    "after1": "Start mirror: the phone screen opens in a separate window, with a toolbar on the PC.",
+    "after2": "Pick a performance preset that fits your laptop and cable.",
+    "after3": "Screenshots and recordings save under PixMirror — changeable in Settings.",
+    "after4": "Turn phone screen off while mirroring if you want privacy at your desk.",
+    "searching": "Searching for devices…",
+    "waitingAuth": "Waiting for your approval on the phone… Choose Always allow from this computer.",
+    "offlineHint": "Device is offline — unplug and reconnect the cable."
+  },
+  "presets": {
+    "label": "Performance",
+    "high": "High quality",
+    "highDesc": "Sharpest picture. Good for work and detail.",
+    "gaming": "Gaming",
+    "gamingDesc": "Faster response with lower resolution.",
+    "eco": "Eco",
+    "ecoDesc": "Lighter on weak devices."
+  },
+  "mirror": {
+    "endedUnexpectedly": "Mirroring ended. The display window may have closed, USB dropped, or the phone screen turned off."
+  },
+  "capture": {
+    "screenshot": "Screenshot",
+    "recording": "Recording",
+    "saved": "Saved {kind}: {name}",
+    "reveal": "Show in folder"
+  },
+  "toolbar": {
+    "aria": "Mirror tools",
+    "back": "Back",
+    "home": "Home",
+    "recents": "Recents",
+    "volumeUp": "Volume up",
+    "volumeDown": "Volume down",
+    "power": "Power",
+    "screenshot": "Screenshot",
+    "record": "Record",
+    "stopRecord": "Stop recording",
+    "openFolder": "Open save folder",
+    "minimize": "Minimize mirror and toolbar",
+    "stop": "Stop mirroring"
+  },
+  "settings": {
+    "title": "Settings",
+    "saveDir": "Save folder",
+    "saveDirHint": "Screenshots in screenshots/, recordings in recordings/.",
+    "tools": "Tools",
+    "adbUnavailable": "adb unavailable",
+    "pickSaveDir": "Choose save folder",
+    "saveDirChanged": "Save folder updated"
+  },
+  "errors": {
+    "unknown": "An unknown error occurred.",
+    "unauthorized": "Device is connected but unauthorized. Accept “Allow USB debugging” on the phone (enable Always allow from this computer).",
+    "no_device": "No device connected. Plug in the phone and enable USB debugging.",
+    "offline": "Device is offline. Unplug and reconnect, or toggle USB debugging on the phone.",
+    "adb_daemon": "Could not start the adb server. Make sure no other adb is running, then try again.",
+    "multiple_devices": "More than one device is connected. Select a specific device first.",
+    "raw": "Error: {detail}",
+    "select_device": "Select a device first.",
+    "adb_start_failed": "Failed to start adb: {detail}",
+    "scrcpy_start_failed": "Failed to start scrcpy: {detail}",
+    "mirror_already": "Mirroring is already running. Stop it first.",
+    "recording_already": "Recording is already running.",
+    "recording_need_mirror": "Start mirroring first, then record.",
+    "recording_none": "No active recording.",
+    "mirror_none": "No mirror session.",
+    "unsupported_key": "Unsupported key: {key}",
+    "binaries_missing": "Binaries folder missing. Place files under src-tauri/binaries.",
+    "binary_not_found": "Could not find {name}.",
+    "resource_dir": "Could not resolve resource directory: {detail}",
+    "screenshot_invalid": "Could not capture a valid image from the device",
+    "screenshot_save": "Could not save the image: {detail}",
+    "mkdir_failed": "Could not create folder: {detail}",
+    "open_folder_failed": "Could not open folder: {detail}",
+    "path_outside_save": "Path is outside the save folder.",
+    "window_missing": "Main window is missing",
+    "task_failed": "Could not run the operation: {detail}",
+    "settings_dir": "Could not resolve settings folder: {detail}",
+    "documents_dir": "Could not resolve documents folder: {detail}"
+  }
+}
