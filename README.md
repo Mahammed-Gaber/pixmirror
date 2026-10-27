@@ -26,16 +26,17 @@ Built with Tauri 2, React, TypeScript, and Rust. Uses [scrcpy](https://github.co
 
 ```bash
 npm install
+npm run setup:binaries
 npm run tauri dev
 ```
+
+`setup:binaries` downloads the official scrcpy Windows x86_64 package (includes adb + DLLs) into `src-tauri/binaries/`. Those files are **gitignored** — keep them local / ship them inside the app installer, not in Git.
 
 Build an installer:
 
 ```bash
 npm run tauri build
 ```
-
-`adb` and `scrcpy` are bundled under `src-tauri/binaries/` for Windows x86_64.
 
 ## Connect a phone
 
@@ -49,4 +50,4 @@ npm run tauri build
 
 Application code: see [LICENSE](LICENSE).
 
-Bundled [scrcpy](https://github.com/Genymobile/scrcpy) is under the Apache License 2.0. Keep its license and attribution when redistributing binaries.
+[scrcpy](https://github.com/Genymobile/scrcpy) is under the Apache License 2.0. When you redistribute scrcpy/adb binaries with a build, keep their upstream licenses and attribution.
