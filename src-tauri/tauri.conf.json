@@ -39,10 +39,10 @@
       "binaries/scrcpy",
       "binaries/adb"
     ],
-    "resources": [
-      "binaries/*.dll",
-      "binaries/scrcpy-server",
-      "binaries/icon.png"
-    ]
+    "resources": {
+      "binaries/*.dll": "./",
+      "binaries/scrcpy-server": "scrcpy-server",
+      "binaries/icon.png": "icon.png"
+    }
   }
 }

@@ -1,4 +1,8 @@
-# PixMirror
+<p align="center">
+  <img src="src-tauri/icons/128x128.png" alt="PixMirror" width="96" height="96" />
+</p>
+
+<h1 align="center">PixMirror</h1>
 
 Desktop app to mirror and control an Android phone over USB.
 

@@ -133,6 +133,7 @@
     "unsupported_key": "مفتاح غير مدعوم: {key}",
     "binaries_missing": "مجلد الـ binaries غير موجود. ضع الملفات تحت src-tauri/binaries.",
     "binary_not_found": "تعذر العثور على {name}.",
+    "bad_path": "مسار ملف مطلوب غير موجود أو غير صالح. أعد تثبيت التطبيق أو استعد مجلد binaries.",
     "resource_dir": "تعذر تحديد مجلد الموارد: {detail}",
     "screenshot_invalid": "تعذر التقاط صورة صالحة من الجهاز",
     "screenshot_save": "تعذر حفظ الصورة: {detail}",

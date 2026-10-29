@@ -133,6 +133,7 @@
     "unsupported_key": "Unsupported key: {key}",
     "binaries_missing": "Binaries folder missing. Place files under src-tauri/binaries.",
     "binary_not_found": "Could not find {name}.",
+    "bad_path": "A required file path is missing or invalid. Reinstall the app or restore the binaries folder.",
     "resource_dir": "Could not resolve resource directory: {detail}",
     "screenshot_invalid": "Could not capture a valid image from the device",
     "screenshot_save": "Could not save the image: {detail}",
