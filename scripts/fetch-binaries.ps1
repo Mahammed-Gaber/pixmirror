@@ -52,5 +52,20 @@ if (Test-Path $ScrcpyOut) {
   Move-Item -Force $ScrcpyOut (Join-Path $OutDir "scrcpy-$Triple.exe")
 }
 
+# tauri.conf bundles binaries/icon.png; newer scrcpy zips may omit it.
+# Prefer the app icon so CI/local builds always have a stable file.
+$IconOut = Join-Path $OutDir "icon.png"
+$IconCandidates = @(
+  (Join-Path $Root "src-tauri\icons\128x128.png"),
+  (Join-Path $Root "src-tauri\icons\icon.png"),
+  (Join-Path $PayloadDir "icon.png")
+)
+$IconSrc = $IconCandidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+if (-not $IconSrc) {
+  throw "No icon.png source found (expected src-tauri/icons/128x128.png)."
+}
+Copy-Item -Force $IconSrc $IconOut
+Write-Host "Bundled icon: $IconSrc -> $IconOut"
+
 Remove-Item -Recurse -Force $Temp
 Write-Host "Done. Binaries are in src-tauri/binaries (gitignored)."
